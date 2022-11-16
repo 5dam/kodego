@@ -1,0 +1,42 @@
+.container{
+    width:50vw;
+    /* border:1px solid gray; */
+}
+.section{
+    height:50vh;
+    display:flex;
+}
+.form-container{
+    display:flex;
+    flex-grow:3;
+}
+.form{
+    background-color:green;
+}
+.form1{
+    width:400px;
+    height:400px;
+    
+    display:flex;
+}
+.aside{
+    background-color:green;
+}
+.nav{
+    background-color:yellowgreen;
+}
+.aside, .nav{
+    flex-grow:1;
+}
+
+
+
+
+
+
+header{
+    background-color:lightgreen;
+}
+footer{
+    background-color:lightgreen;
+}
